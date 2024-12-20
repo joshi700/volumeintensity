@@ -14,7 +14,7 @@ const TopicList = ({ topics, onSelect }) => {
       }}
     >
         <h1 style={{ fontFamily: "'Poppins', sans-serif", color: "#333" }}>
-        Mastering Leadership TMC, Club Number: 07870960, 125, Area E04
+        Mastering Leadership TMC
       </h1>
       <h1 style={{ fontFamily: "'Poppins', sans-serif", color: "#333" }}>
         Select a Topic
