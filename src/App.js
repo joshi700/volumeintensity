@@ -47,7 +47,7 @@ const App = () => {
   const [selectedTopic, setSelectedTopic] = useState(null);
 
   const topics = [
-    "Favorite sports brands",
+    "US V/S China",
     "Favorite times of the year",
     "Your favorite Makeup",
     "Being Chiku",
