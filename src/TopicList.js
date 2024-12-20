@@ -1,39 +1,3 @@
-// import React from "react";
-
-// const TopicList = ({ topics, onSelect }) => {
-//   return (
-//     <div
-//       style={{
-//         display: "flex",
-//         flexDirection: "column",
-//         alignItems: "center",
-//         justifyContent: "center",
-//         height: "100vh",
-//       }}
-//     >
-//       <h1>Select a Topic</h1>
-//       {topics.map((_, index) => (
-//         <button
-//           key={index}
-//           onClick={() => onSelect(index)}
-//           style={{
-//             margin: "10px",
-//             padding: "15px 30px",
-//             fontSize: "18px",
-//             cursor: "pointer",
-//             borderRadius: "8px",
-//             border: "1px solid #ccc",
-//           }}
-//         >
-//           Topic {index + 1}
-//         </button>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default TopicList;
-
 import React from "react";
 
 const TopicList = ({ topics, onSelect }) => {
@@ -49,6 +13,9 @@ const TopicList = ({ topics, onSelect }) => {
         padding: "20px",
       }}
     >
+        <h1 style={{ fontFamily: "'Poppins', sans-serif", color: "#333" }}>
+        Mastering Leadership TMC, Club Number: 07870960, 125, Area E04
+      </h1>
       <h1 style={{ fontFamily: "'Poppins', sans-serif", color: "#333" }}>
         Select a Topic
       </h1>
