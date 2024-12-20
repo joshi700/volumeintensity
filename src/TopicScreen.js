@@ -19,8 +19,6 @@ const TopicScreen = ({ topic, onBack }) => {
     "#000000", // Black
   ];
 
-  // Replace <img> with background color logic using colors array
-
   // Shuffle colors when the component mounts
   useEffect(() => {
     const shuffled = [...colors].sort(() => Math.random() - 0.5);
@@ -63,7 +61,7 @@ const TopicScreen = ({ topic, onBack }) => {
       }}
     >
       {/* Random Number Display */}
-    <div
+      <div
         style={{
           position: "absolute",
           top: "50%", // Center vertically
@@ -84,7 +82,7 @@ const TopicScreen = ({ topic, onBack }) => {
       <div
         style={{
           position: "absolute",
-          top: "60px",
+          top: "calc(50% + 40px)", // Moves the timer below the "Pitch and Intensity"
           left: "50%",
           transform: "translateX(-50%)",
           backgroundColor: "rgba(0, 0, 0, 0.6)",
@@ -126,4 +124,4 @@ const TopicScreen = ({ topic, onBack }) => {
   );
 };
 
-export default TopicScreen;
+export default To
