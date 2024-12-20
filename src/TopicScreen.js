@@ -124,4 +124,4 @@ const TopicScreen = ({ topic, onBack }) => {
   );
 };
 
-export default To
+export default TopicScreen;
